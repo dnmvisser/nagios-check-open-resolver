@@ -32,7 +32,7 @@ OK: No resolver found on 192.168.0.1
 
 
 ```
-# DNS0 resolver
-debian@foo:~$ ./check-open-resolver.py -H 2a0f:fc80::
-CRITICAL: Host 2a0f:fc80:: resolves DNS queries
+# Google's open resolver - should resolve
+debian@foo:~$ ./check-open-resolver.py -H dns.google.com
+CRITICAL: Host dns.google.com resolves DNS queries
 ```
