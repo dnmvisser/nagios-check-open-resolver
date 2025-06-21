@@ -6,7 +6,9 @@ Nagios plugin to check for an open DNS resolver
 
 ### Requirements
 
-* Python 3.x or newer
+* Python 3.6 or newer
+* dnspython; either with `pip3 install dnspython`, or using your
+  system packager, for example on Debian: `apt-get install python3-dnspython`
 
 ### Usage
 
