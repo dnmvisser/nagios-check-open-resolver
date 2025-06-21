@@ -4,6 +4,10 @@
 
 Nagios plugin to check for an open DNS resolver
 
+### Requirements
+
+* Python 3.x or newer
+
 ### Usage
 
 ```

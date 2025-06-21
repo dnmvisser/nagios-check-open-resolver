@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import argparse
 import sys
-import netaddr
+import ipaddress
 import dns.resolver
 
 parser = argparse.ArgumentParser(
@@ -47,7 +47,7 @@ def is_resolver(addr):
 
 def is_addr(string):
     try:
-        return netaddr.IPAddress(string)
+        return ipaddress.ip_address(string)
     except Exception:
         return False
 
